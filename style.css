@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'ProductSans';
+    src: url('src/fonts/product_sans_regular.woff');
+}
+
+@font-face{
+    font-family: 'ProductSans';
+    src: url('src/fonts/product_sans_bold.woff');
+    font-weight: bold;
+
+}
+
+@font-face{
+    font-family: 'ProductSans';
+    src: url('src/fonts/product_sans_italic.woff');
+    font-weight: 100;
+
+}
+*{
+    font-family: 'ProductSans';
+    margin: 0;
+    padding: 0;
+}

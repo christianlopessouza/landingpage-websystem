@@ -1,0 +1,55 @@
+.block5-Out{
+    width: 100%;
+    height: 380px;
+    display: flex;
+    justify-content:center;
+    margin-top: 300px;
+
+}
+
+.block5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 870px;
+    margin-top:100px;
+    background-color: #F6481E;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.block5 .imgRightSide img{
+    width: 300px;
+    margin-right: 100px; 
+    margin-bottom: 50px; 
+}
+
+.block5 p{
+    text-align: justify;
+}
+
+.block5 .text{
+    padding: 10px 60px 10px 60px;
+    max-width: 35%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.buttonFooter .registerButton{
+    border: none;
+    color: #fff;
+    background-color: #303861;
+    height: 50px;
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top:15px;
+}
+
+.buttonFooter .registerButton:hover{
+    background-color: #18235a;
+}

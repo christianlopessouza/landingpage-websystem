@@ -1,0 +1,39 @@
+.block3-Out{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+
+}
+
+.block3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin-top:100px;
+    
+}
+
+.block3 h2{
+    font-size: 52px;
+    letter-spacing: -2px;
+    color: #303861;
+    margin-bottom: 20px;
+}
+
+.block3 p{
+    font-size: 20px;
+    color:#626988;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.imageLeftSide img{
+    width: 450px;
+    padding-right: 80px;
+}

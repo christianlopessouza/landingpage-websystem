@@ -1,0 +1,130 @@
+.block1-Out{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+    margin-top: 180px;
+    background-image: url("../src/Grupo12.png");
+    background-size: 1400px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;    
+}
+
+.block1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin-top: 30px;
+}
+
+.block1 .text h1{
+    line-height: 80px;
+    font-size: 72px;
+    color:#323A63;
+    margin-bottom: 20px;
+}
+
+.registerLineColor{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #F54F21;
+    color: #F54F27;
+    background-color:transparent;
+    height: 40px;
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.registerLineColor:hover{
+    background-color: #F54F27;
+    color: #fff;
+}
+
+.circle {
+    position: relative;
+    border: 2.5px solid #323A63; 
+    border-radius: 100%;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: transparent;
+    z-index: 2;}
+    
+.circle:first-child {
+    margin-top: 0;
+}
+
+.circle:last-child:after {
+    display: none;
+}
+
+
+.circle:after {
+    position: absolute;
+    border: 1.5px solid #323A63;
+    width: 0;
+    height: 30px;
+    display: block;
+    content: '';
+    left: 50%;
+    z-index: 1;
+    margin-left: -1px;
+    background-color: #323A63;
+}
+
+.block1 .list {
+    display: flex;
+    margin-left: 15px;
+    
+}
+
+.block1 .list p{
+    margin-top: -26px;
+    line-height: 90px;
+    font-size: 22px; 
+    margin-left:10px;
+    color: #323A63; 
+}
+
+.fa-check{
+    color: #F54F21;
+    font-size: 12px;
+}
+
+.imgRightSide img{
+    width: 480px;
+    margin-top: -120px; 
+}
+
+.text {
+    background-image: url("src/BckRight.png");
+    width: 100%;    
+}
+
+.block-wall{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+}
+
+.block-wall .left{
+    background: #323A63;
+    width: 100%;
+    height: 100%;
+}
+
+.block-wall .right{
+    background: #F54F21;
+    width: 100%;
+    height: 100%;
+    
+}
