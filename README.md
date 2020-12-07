@@ -1,6 +1,6 @@
 # Web System Informática – Landing Page
 
-![Mock Up](https://github.com/christianlopessouza/websystem-webpage/blob/main/site.gif?raw=true)
+![Mock Up](https://github.com/christianlopessouza/landingpage-websystem/blob/main/site.gif?raw=true)
 
 ## Overview
 |only front-end|
